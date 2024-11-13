@@ -1,0 +1,82 @@
+/* Centra il contenitore del form e del titolo */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #aa9292;
+    margin: 0;
+}
+
+/* Contenitore per il titolo e il form */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra il contenuto orizzontalmente */
+    text-align: center;
+}
+
+/* Stile del titolo */
+h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Stile del form */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Stile per le etichette e gli input */
+label {
+    display: block;
+    color: #700303;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+/* Stile per il pulsante submit */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #862222;
+}
+
+/* Stile per il link */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #095ddb;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
